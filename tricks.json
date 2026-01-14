@@ -1,0 +1,98 @@
+{
+  "Ollie": {
+    "Regular": "Easy",
+    "Switch": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Easy"
+  },
+  "Kickflip": {
+    "Regular": "Easy",
+    "Switch": "Intermediate",
+    "Fakie": "Easy",
+    "Nollie": "Intermediate"
+  },
+  "Heelflip": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Switch": "Intermediate",
+    "Nollie": "Intermediate"
+  },
+  "BS Shuvit": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Easy",
+    "Switch": "Easy"
+  },
+  "FS Shuvit": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Easy",
+    "Switch": "Easy"
+  },
+  "FS 180": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Easy",
+    "Switch": "Easy"
+  },
+  "BS 180": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Easy",
+    "Switch": "Easy"
+  },
+  "Varial Kickflip": {
+    "Regular": "Easy",
+    "Fakie": "Easy",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Varial Heelflip": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Hardflip": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Inward Heel": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Frontside Flip": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Backside Flip": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Backside Heel": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "Frontside Heel": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  },
+  "360 Flip": {
+    "Regular": "Intermediate",
+    "Fakie": "Intermediate",
+    "Nollie": "Hard",
+    "Switch": "Hard"
+  }
+}

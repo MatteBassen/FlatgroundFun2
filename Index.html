@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlatgroundFun</title>
+    <link id="link" rel="stylesheet" href="Style.css">
+    <link rel="icon" href="Assets/FlatgroundFunLogo.png">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <img id="fgflogo" src="Assets/FlatgroundFunLogoSlim.png" alt="">
+
+    <div class="display">
+        <div id="trickDisplay">      
+        </div>
+
+        <div id="diffDisplay">
+        </div>
+    </div>
+
+    <h1 id="filterTitle">Filter</h1>
+    <div class="filters">
+       <button class="filter-btn" data-difficulty="easy"><h2>Easy</h2></button>
+       <button class="filter-btn" data-difficulty="intermediate"><h2>Intermediate</h2></button>
+       <button class="filter-btn" data-difficulty="hard"><h2>Hard</h2></button>
+    </div>
+
+
+    <button id="randomButton" onclick="getRandomTrick()"><h1>Give me a trick</h1></button>
+
+    <button id="darkModeBtn" onclick="switchDarkMode()"><h3>Switch to dark mode</h3></button>
+    
+</body>
+</html>
