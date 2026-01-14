@@ -8,8 +8,10 @@ const link = document.getElementById("link")
 const diffColors = {
     easy: "lightgreen",
     intermediate: "orange",
-    hard: "red"
+    hard: "red",
 };
+
+
 
 let flatTricks = [];
 let activeFilters = new Set(["easy", "intermediate", "hard"]); // all active by default
