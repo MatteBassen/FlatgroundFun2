@@ -96,8 +96,11 @@ body{
     border-radius: 30px;
 }
 
+
+
 #darkModeBtn {
     border: none;
+    background-color: transparent;
     background-color: transparent;
     color: white;
     transition: 0.3s ease;
