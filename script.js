@@ -73,30 +73,35 @@ function displayTrick(trick) {
     diffDisplay.innerHTML = `<h1 style="color: ${color}">${trick.difficulty}</h1>`;
 }
 
-let lightMode = true
+let darkMode = true
 const lightDarkBtn = document.getElementById("darkModeBtn")
 
-function switchDarkMode(){
-    if (lightMode) {
-    link.href = "StyleDarkMode.css"
-    const logo = document.getElementById("fgflogo");
-    logo.src = "./Assets/FlatgroundFunLogoWhiteSlim.png"
-    lightMode = false
-    lightDarkBtn.innerHTML = "<h3>Switch to light mode</h3>"
 
-    }
-    else {
-        lightMode = true
+
+function switchDarkMode() {
+    if (darkMode == true) {
+        
         link.href = "Style.css"
         const logo = document.getElementById("fgflogo");
         logo.src = "./Assets/FlatgroundFunLogoSlim.png"
         lightDarkBtn.innerHTML = "<h3>Switch to dark mode</h3>"
-    }   
+        darkMode = false
+    }
+    else if (darkMode == false){
+        
+        link.href = "StyleDarkMode.css"
+        const logo = document.getElementById("fgflogo");
+        logo.src = "./Assets/FlatgroundFunLogoWhiteSlim.png"
+        lightDarkBtn.innerHTML = "<h3>Switch to light mode</h3>"
+        darkMode = true
+    }
 }
 
 
 // Load JSON when page loads
 loadTricks();
+
+
 
 // Random trick button
 randomBtn.addEventListener("click", getRandomTrick);
